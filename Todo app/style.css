@@ -1,0 +1,74 @@
+body{
+    font-family: 'Play', sans-serif;
+    margin: 0;
+    background-color: #eeeeee;
+}
+
+h1{
+    text-align: center;
+    font-size: 7rem;
+    color: blue;
+    opacity: 50%;
+    margin: 3rem 0rem;
+}
+
+form{
+    margin: 0 auto;
+    width: 330px;
+    max-width: 100%;
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.input{
+    padding: 0.5rem 1.1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    max-width: 100%;
+    border: none;
+    display: inline-block;
+}
+
+.input::placeholder {
+    color: #858585;
+}
+
+.todos {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    width: 330px;
+    width: 100%;
+    
+}
+
+
+.todos li.completed{
+    text-decoration: line-through;
+    color: #cccccc;
+}
+
+p{
+    text-align: center;
+    font-size: 1rem;
+    color: #636363;
+}
+
+.todos li {
+    display: block;
+    font-size: 1.2rem;
+    padding: 0.5rem 1.7rem;
+    color: rgb(65, 65, 65);
+    list-style-type: none;
+    border-top: 1px solid rgb(201, 201, 201);    
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+
+.color{
+    display: inline-block;
+    height: 25px;
+    width: 15px;
+    margin: -15px 0;
